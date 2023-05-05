@@ -1,8 +1,9 @@
 class Entries 
 {
+    private readonly object response;
     string date, prompt, responses;
 
-    public Entry(string _data, string _prompt, string _response)
+    public Entries(string _data, string _prompt, string _response)
     {
 
     }
