@@ -1,33 +1,22 @@
-internal class Entry
+using System;
+public class Entry
 {
-    internal string _prompt;
-    internal string _date;
+    public string _prompt;
+    public string _date;
+    public string _response;
+
 
     public Entry()
     {
     }
 
-    internal void DisplayEntry()
-    {
-        throw new NotImplementedException();
-    }
-}
-class Entries 
-{
-    private readonly object response;
-    string date, prompt, responses;
-
-    public Entries(string _data, string _prompt, string _response)
-    {
-
-    }
     public void DisplayEntry()
     {
-
+        Console.WriteLine($"{_date}\n{_prompt}\n{_response}");
     }
-
-    public string getEntryAsCSV()
+    public string GetEntryAsCSV()
     {
-        return string.Format("(0)|(1)|(2)", date, prompt, response);
+        string entry = $"{_date}|{_prompt}|{_response}";
+        return entry;
     }
 }
