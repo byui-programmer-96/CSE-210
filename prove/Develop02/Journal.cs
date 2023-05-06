@@ -25,7 +25,7 @@ public class Journal
         Dateline date = Dateline.Now;
         Console.WriteLine(date);
         Console.WriteLine(prompt);
-        string entryResponse = Console.WriteLine();
+        string entryResponse = Console.ReadLine();
         Entry newEntry = new Entry();
         newEntry._prompt = prompt;
         newEntry._date = entryResponse;
@@ -34,9 +34,10 @@ public class Journal
         return;
     }
 
-    public void SaveToCVS()
+    public bool SaveToCVS()
     {
-
+        string myJournal = "myJournal.txt";
+        FileStream filestream = FileMode.Create(myJournal);
     }
 
     public void LoadFromCSV()
