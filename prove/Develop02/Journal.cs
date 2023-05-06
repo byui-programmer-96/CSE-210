@@ -30,7 +30,7 @@ public class Journal
         newEntry._prompt = prompt;
         newEntry._date = entryResponse;
         _entries.Add(newEntry);
-            Console.WriteLine();
+            Console.ReadLine();
         return;
     }
 

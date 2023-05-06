@@ -3,12 +3,12 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
-       Journal journal =new Journal();
-       int menuUserinput =0;
-    }
+    { 
+        Journal journal =new Journal();
+       int userInput = 0;
+    
 
-    List<string> menu = new List<string>
+        List <string> menu = new List<string>
         {
             "Please select an Option:",
             "1. Write",
@@ -19,12 +19,13 @@ class Program
             "What would you like to do?"
 
         };
-    while (menuUserinput !=5)
-    {
-        foreach(string menuItem in menu)
+        while (userInput != 5)
         {
-            Console.WriteLine(menuItem);
+            foreach(string menuItem in menu)
+            {
+                Console.WriteLine(menuItem);
+            }
         }
     }
-
+      
 }
