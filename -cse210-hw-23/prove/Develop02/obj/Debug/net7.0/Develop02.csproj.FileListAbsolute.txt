@@ -1,5 +1,0 @@
-C:\Users\abamb\OneDrive\Documents\Cailynns school\-cse210-hw-23\prove\Develop02\obj\Debug\net7.0\Develop02.csproj.AssemblyReference.cache
-C:\Users\abamb\OneDrive\Documents\Cailynns school\-cse210-hw-23\prove\Develop02\obj\Debug\net7.0\Develop02.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\abamb\OneDrive\Documents\Cailynns school\-cse210-hw-23\prove\Develop02\obj\Debug\net7.0\Develop02.AssemblyInfoInputs.cache
-C:\Users\abamb\OneDrive\Documents\Cailynns school\-cse210-hw-23\prove\Develop02\obj\Debug\net7.0\Develop02.AssemblyInfo.cs
-C:\Users\abamb\OneDrive\Documents\Cailynns school\-cse210-hw-23\prove\Develop02\obj\Debug\net7.0\Develop02.csproj.CoreCompileInputs.cache
