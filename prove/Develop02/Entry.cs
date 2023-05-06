@@ -1,3 +1,17 @@
+internal class Entry
+{
+    internal string _prompt;
+    internal string _date;
+
+    public Entry()
+    {
+    }
+
+    internal void DisplayEntry()
+    {
+        throw new NotImplementedException();
+    }
+}
 class Entries 
 {
     private readonly object response;

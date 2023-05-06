@@ -11,4 +11,9 @@ class PromptGenerator
     {
         return "";
     }
+
+    internal string GetRandomPrompt()
+    {
+        throw new NotImplementedException();
+    }
 }
