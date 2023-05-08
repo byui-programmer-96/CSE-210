@@ -4,42 +4,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("What is your grade percentage? ");
-        string answer = Console.ReadLine();
-        int percent = int.Parse(answer);
-
-        string letter = "";
-
-        if (percent >= 90)
-        {
-            letter = "A";
-        }
-        else if (percent >= 80)
-        {
-            letter = "B";
-        }
-        else if (percent >= 70)
-        {
-            letter = "C";
-        }
-        else if (percent >= 60)
-        {
-            letter = "D";
-        }
-        else
-        {
-            letter = "F";
-        }
-
-        Console.WriteLine($"Your grade is: {letter}");
+        Reference scriptureReference = new Reference("Proverbs", "3", "5", "6");
+        Scripture scripture = new Scripture(scriptureReference, "Trust in the lord with all thine heart and lean not",
+        "understanding; in all thy ways acknowledge him, and he shall direct they paths.");
+        string userInput = "";
         
-        if (percent >= 70)
+        while (userInput != "quit" && scripture.HaswordsLeft() == true)
         {
-            Console.WriteLine("You passed!");
+            Console.Clear();
+            Console.WriteLine(scripture.GetScripture());
+            Console.WriteLine(); 
+            Console.ReadLine();
+            scripture.Removewords();
         }
-        else
-        {
-            Console.WriteLine("Better luck next time!");
-        }
+            
+            
+            
+            Console.WriteLine(scripture.GetScripture());
+            Console.WriteLine("Hopefully you memorized the scripture!")
+
     }
 }
