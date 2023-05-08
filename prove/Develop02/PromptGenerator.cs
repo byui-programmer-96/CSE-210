@@ -21,6 +21,7 @@ public class PromptGenerator
         Random random = new Random();
         int numberPrompts = random.Next(prompts.Count);
         string randomPrompt = prompts[numberPrompts];
+        
         Console.WriteLine(randomPrompt);
         return randomPrompt;
     }
