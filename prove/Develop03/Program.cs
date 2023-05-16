@@ -21,7 +21,7 @@ class Program
             
             
             Console.WriteLine(scripture.GetScripture());
-            Console.WriteLine("Hopefully you memorized the scripture!")
+            Console.WriteLine("Hopefully you memorized the scripture!");
 
     }
 }
